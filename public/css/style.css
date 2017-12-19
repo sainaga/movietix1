@@ -1,0 +1,64 @@
+.bg-main {
+  background: #1E8495 !important;
+}
+
+.text-main {
+  color: #1E8495 !important;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #FAFAFA;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+header .navbar {
+  height: 97px;
+}
+
+header .navbar .navbar-brand img {
+  height: 60px;
+}
+
+header .navbar a {
+  text-decoration: none;
+  font-size: 90%;
+}
+
+header .navbar a:hover {
+  color: #21BDD4 !important;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.parallax {
+  background-image: url("/images/movietheatre.jpg");
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dashboard section img {
+  cursor: pointer;
+}
+
+.dashboard section .card-title {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.answer {
+  display: none;
+}
+
+.question {
+  cursor: pointer;
+}
+
